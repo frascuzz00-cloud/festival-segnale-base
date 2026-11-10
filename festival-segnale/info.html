@@ -20,23 +20,22 @@
     </div>
   </header>
 
-  <main id="contenuto" class="container">
-    <section class="intro" aria-labelledby="titolo-info">
-      <p class="eyebrow">12–13 giugno · Torino · Festival immaginario</p>
-      <h1 id="titolo-info">Info e luoghi</h1>
-      <p class="lead">Tutto quello che c'è da sapere per partecipare al festival, raggiungere le sedi e muoversi in città.</p>
-      <p class="reading-text">Tutti gli eventi sono a ingresso gratuito con prenotazione consigliata per i laboratori. Le tre sedi del festival si trovano a breve distanza a piedi l'una dall'altra.</p>
-    </section>
+ <main id="contenuto" class="container">
+  <section class="intro" aria-labelledby="titolo-info">
+    <p class="eyebrow">12–13 giugno · Torino · Festival immaginario</p>
+    <h1 id="titolo-info">Info e luoghi</h1>
+    <p class="lead">Tutto quello che c'è da sapere per partecipare al festival, raggiungere le sedi e muoversi in città.</p>
+    <p class="reading-text">Tutti gli eventi sono a ingresso gratuito con prenotazione consigliata per i laboratori. Le tre sedi del festival si trovano a breve distanza a piedi l'una dall'altra.</p>
+  </section>
 
-    <section class="content-section" aria-labelledby="titolo-sedi">
+  <section class="content-section" aria-labelledby="titolo-sedi">
     <h2 id="titolo-sedi">Le sedi del festival</h2>
 
     <div class="swiper swiper-luoghi">
       <div class="swiper-wrapper">
-        
         <div class="swiper-slide">
           <figure>
-            <img src="assets/luoghi/sede-centrale.jpg" alt="Spazio interno di Officina Nord" width="1200" height="800">
+            <img src="assets/luoghi/sede-centrale.jpg" alt="Ingresso della Sede centrale" width="1200" height="800">
             <figcaption>
               <h3>Sede centrale</h3>
               <p>Spazio multifunzionale dedicato a incontri, talk e progetti condivisi.</p>
@@ -46,7 +45,7 @@
 
         <div class="swiper-slide">
           <figure>
-            <img src="assets/luoghi/politecnico-valentino.jpg" alt="Laboratorio e tavoli di lavoro a Spazio Forma" width="1200" height="800">
+            <img src="assets/luoghi/politecnico-valentino.jpg" alt="Aule e spazi del Politecnico al Valentino" width="1200" height="800">
             <figcaption>
               <h3>Politecnico al Valentino</h3>
               <p>Laboratorio attivo per workshop su materiali di recupero e sperimentazione.</p>
@@ -56,14 +55,13 @@
 
         <div class="swiper-slide">
           <figure>
-            <img src="assets/luoghi/mirafiori.jpg" alt="Area aperta del Cortile Comune" width="1200" height="800">
+            <img src="assets/luoghi/mirafiori.jpg" alt="Spazi della sede di Mirafiori" width="1200" height="800">
             <figcaption>
               <h3>Sede di Mirafiori</h3>
               <p>Area all'aperto riservata a percorsi visivi, installazioni e mostre collettive.</p>
             </figcaption>
           </figure>
         </div>
-
       </div>
 
       <button type="button" class="swiper-button-prev" aria-label="Sede precedente"></button>
@@ -71,11 +69,52 @@
     </div>
   </section>
 
-  <!-- 3. Eventuale sezione successiva (es. accessibilità / disclaimer didattico) -->
+  <section class="content-section" aria-labelledby="titolo-mappa">
+    <h2 id="titolo-mappa">Mappa e indicazioni</h2>
+
+    <div class="map-wrapper">
+      <!-- Se la consegna include un URL uMap specifico, sostituiscilo nell'attributo src e nel link sotto -->
+      <iframe 
+        class="map-frame"
+        src="https://umap.openstreetmap.fr/it/map/segnale-festival-di-design_placeholder" 
+        title="Mappa interattiva delle sedi del festival Segnale a Torino"
+        loading="lazy">
+      </iframe>
+      <p class="map-fullscreen-link">
+        <a href="https://umap.openstreetmap.fr/it/map/segnale-festival-di-design_placeholder" target="_blank" rel="noopener noreferrer">
+          Visualizza la mappa a schermo intero
+        </a>
+      </p>
+    </div>
+
+    <ul class="venues-list">
+      <li class="venue-item">
+        <h3>Sede centrale</h3>
+        <p>Corso Duca degli Abruzzi 24, Torino</p>
+        <a class="directions-link" href="https://www.google.com/maps/dir/?api=1&destination=Corso+Duca+degli+Abruzzi+24+Torino" target="_blank" rel="noopener noreferrer">
+          Indicazioni stradali per Sede centrale
+        </a>
+      </li>
+      <li class="venue-item">
+        <h3>Politecnico al Valentino</h3>
+        <p>Viale Mattioli 39, Torino</p>
+        <a class="directions-link" href="https://www.google.com/maps/dir/?api=1&destination=Viale+Pier+Andrea+Mattioli+39+Torino" target="_blank" rel="noopener noreferrer">
+          Indicazioni stradali per Politecnico al Valentino
+        </a>
+      </li>
+      <li class="venue-item">
+        <h3>Sede di Mirafiori</h3>
+        <p>Corso Luigi Settembrini 178, Torino</p>
+        <a class="directions-link" href="https://www.google.com/maps/dir/?api=1&destination=Corso+Luigi+Settembrini+178+Torino" target="_blank" rel="noopener noreferrer">
+          Indicazioni stradali per Sede di Mirafiori
+        </a>
+      </li>
+    </ul>
+  </section>
+
   <section class="content-section" aria-labelledby="titolo-accesso">
     <p class="reading-text">Festival, sedi ed eventi sono inventati per questa esercitazione.</p>
   </section>
-
 </main>
 
   <footer class="site-footer">
