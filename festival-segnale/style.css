@@ -223,3 +223,26 @@ h3 {
   }
 }
 /* Qui aggiungeremo la media query durante la demo. */
+/* Swiper Luoghi */
+.swiper-luoghi {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-luoghi img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.swiper-luoghi figure {
+  margin: 0;
+}
+
+.swiper-luoghi figcaption {
+  margin-top: 1rem;
+}
